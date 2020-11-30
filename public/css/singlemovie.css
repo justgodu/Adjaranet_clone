@@ -1,0 +1,91 @@
+.movie-info{
+    width: 980px;
+    position: relative;
+    margin: 15px auto 32px;
+    display: flex;
+    flex-shrink: 0;
+}
+.movie-info-poster-container{
+    width: 185px;
+    margin-right: 14px;
+    flex-shrink: 0;
+}
+.movie-info-poster{
+    width: 185px;
+    height: 276px;
+    background-position: center center;
+    background-size: cover;
+}
+.movie-info-report-problem{
+    padding: 12px 13px;
+    background-color: rgb(227, 40, 40);
+    font-size: 9px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    height: 38px;
+}
+.movie-info-container{
+    -moz-box-flex: 1;
+    flex-grow: 1;
+    background: rgb(253, 253, 253) none repeat scroll 0% 0%;
+}
+.movie-info-details{
+    padding: 26px 26px 16px;
+    border-bottom: 1px solid rgb(242, 242, 242);
+}
+.movie-info-details-item{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+.movie-info-details-item-label{
+    color: rgb(130, 130, 130);
+    margin-right: 3px;
+}
+.movie-info-details-item-value{
+    color: rgb(26, 144, 207);
+}
+.movie-info-details-item-value a{
+    color: rgb(26, 144, 207);
+}
+.movie-info-authors{
+    display: flex;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+}
+.movie-info-description{
+    padding: 26px;
+}
+
+.movie-info-description-title{
+    font-size: 16px;
+    color: rgb(82, 82, 82);
+    margin-bottom: 8px;
+}
+.movie-info-description-text{
+    font-size: 12px;
+    font-family: "BPGMrgvlovani", serif;
+    color: rgb(130, 130, 130);
+}
+
+
+.imdb-container{
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    margin-right: 16px;
+    font-size: 14px;
+    color: rgb(253, 253, 253);
+
+}
+
+.imdb-container div{
+    margin-left: 5px;
+}
+
